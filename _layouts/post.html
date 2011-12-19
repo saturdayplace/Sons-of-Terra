@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<nav>
+	{% if page.previous %}
+		<a href='{{ page.previous.url }}' class='prev-post-link'>&laquo; {{ page.previous.title }}</a>
+
+	{% else %}
+		<a href='/' class='prev-post-link'>&laquo; Foreward</a>
+	{% endif %}
+
+	{% if page.next %}
+        <a href='{{ page.next.url }} ' class='next-post-link'>{{ page.next.title }} &raquo;</a>
+	{% endif %}
+</nav>

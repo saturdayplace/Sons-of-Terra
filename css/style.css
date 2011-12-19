@@ -192,7 +192,7 @@ footer {
 article h1{
 	padding-left: 84px;
 	margin-left: -84px;
-	height: 73px;
+	min-height: 73px;
 }
 
 article.xander-post h1{ background: url(/img/xander-icon.png) 0 0 no-repeat; }
