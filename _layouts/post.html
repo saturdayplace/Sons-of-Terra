@@ -2,7 +2,12 @@
 layout: default
 ---
 
+<article class='{{ page.author|downcase }}-post'>
+
+<h1>{{ page.title }}</h1>
+<p class='meta'>by {{ page.author }}</p>
 {{ content }}
+</article>
 
 <nav>
 	{% if page.previous %}
