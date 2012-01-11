@@ -96,7 +96,7 @@ h1 { font-size: 2.5em; }
 h2 { font-size: 2em; }
 h3 { font-size: 1.5em; }
 
-p, ul, aside { 
+p, ul, aside, ol { 
 	line-height: 1.5;
 	margin-bottom: 1.5em;
 }
@@ -107,7 +107,7 @@ textarea{
 
 td, th { padding: 5px 10px; }
 th:first-child{ padding-left: 0;}
-strong{ font-weight: bold }
+strong{ font-weight: bold; }
 
 /* base element styling */
 body{
@@ -160,6 +160,15 @@ header h2{
 article p { color: #444; }
 article p.meta { color: #888; }
 
+#footnotes{
+	list-style-position: inside;
+	border-top: 1px dotted #444;
+	padding-top: 1em;
+	font:  .8em/1.5 DroidSerifItalic;
+	color: #666;
+}
+#footnotes li {margin-bottom: .75em; }
+
 #sidebar{
 	font-size: .8em;
 	font-style: italic;
@@ -207,33 +216,5 @@ article.elijah-post h1{	background: url(/img/elijah-icon.png) 0 0 no-repeat; }
 	vertical-align: super;
 }
 .footnote-backreference{ font-weight: normal; }
-
-
-#char-list h2 { margin-bottom: 1em;}
-#char-list h3 { color: #888; }
-#char-list ul { margin-bottom: 1.5em; list-style: none; }
-#char-list li { margin-bottom: .5em;}
-
-#purchase-button {
-	font: 1.1em DroidSansBold;
-	background: url(/img/bt-buy.png) no-repeat;
-	display: block;
-	height: 36px;
-	color: #FFF;
-	border-bottom: none;
-	padding: 14px 0 0 9px;;
-	letter-spacing: -1px;
-}
-
-#purchase-button:hover, #purchase-button:focus{ background-position: 0 -50px; }
-#purchase-button:active {
-	background-position: 0 -100px;
-	position: relative;
-	top: 1px;
-}
-
-/* form styles */
-label { display: block; }
-label+input, label+select, label+textarea {margin-bottom: 1.5em; }
 
 
