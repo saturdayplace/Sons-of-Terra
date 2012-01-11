@@ -107,7 +107,7 @@ textarea{
 
 td, th { padding: 5px 10px; }
 th:first-child{ padding-left: 0;}
-
+strong{ font-weight: bold }
 
 /* base element styling */
 body{
