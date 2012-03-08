@@ -8,10 +8,10 @@ $(document).ready(function(){
 	$(".footnote-reference").each(function(index){
 		var $this = $(this);
 		var note_selector = "[id=" + (index + 1)+ "]";
-		var note = $(note_selector).parent().text().replace("↑", "");
-		var p = $this.parent();
+		var note = $(note_selector).parent().html().replace("↑", "");
+		var p = $this.parent().parent();
 
-		var aside = $("<aside>").text(note).attr("name", $(this).attr("href") );
+		var aside = $("<aside>").html(note).attr("name", $(this).attr("href") );
 		p.after(aside);
 		aside.hide();
 		
