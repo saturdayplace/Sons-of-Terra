@@ -11,6 +11,8 @@ $(document).ready(function(){
 		var note = $(note_selector).parent().html().replace("↑", "");
 		var p = $this.parent().parent();
 
+		console.log(p);
+
 		var aside = $("<aside>").html(note).attr("name", $(this).attr("href") );
 		p.after(aside);
 		aside.hide();
