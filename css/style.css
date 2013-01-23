@@ -127,6 +127,9 @@ aside {
 	border: 1px dotted #888;
 	border-width: 1px 0;
 }
+aside em{
+	font-family: DroidSansRegular;
+}
 
 
 a{ color: #E5511F; font-weight: bold; text-decoration: none; border-bottom: 1px dotted; }
