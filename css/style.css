@@ -23,8 +23,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 :focus { outline: 0; }
 body {
 	line-height: 1;
-	color: black;
-	background: white;
+	color: #fff;
+	background-color: #555;
 	overflow-y: scroll;
 }
 
@@ -114,15 +114,12 @@ th:first-child{ padding-left: 0;}
 strong{ font-weight: bold; }
 
 /* base element styling */
-body{
-	background-color: #E6EBEA
-}
 aside {
 	font-family: DroidSerifItalic;
 	display: block;
 	color: #586C78;
 	margin-bottom: 1.5em;
-	background-color: #EEE;
+	background-color: #FAFAFA;
 	padding: 2em 3em;
 	border: 1px dotted #888;
 	border-width: 1px 0;
@@ -158,9 +155,8 @@ header h2{
 	float: left;
 	margin: 0 1.5em 2em 0;
 	width: 33em;
-	background-color: #FFF;
+	background-color: #EEE;
 	border-radius: 10px;
-	border: 1px solid #6e6e6e;
 	padding: 20px;
 }
 
@@ -199,7 +195,7 @@ footer {
 	border-bottom: none;
 }
 
-#home-link:hover, #home-link:focus{ color: #555; background-color: #E6EBEA;}
+#home-link:hover, #home-link:focus{ color: #E5511F; background-color: inherit;}
 
 .next-post-link { float: right; }
 .prev-post-link { float: left; }
@@ -209,6 +205,7 @@ article h1{
 	padding-left: 84px;
 	margin-left: -84px;
 	min-height: 73px;
+	color: #AAA;
 }
 
 article.xander-post h1{ background: url(/img/xander-icon.png) 0 0 no-repeat; }
