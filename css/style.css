@@ -158,6 +158,7 @@ header h2{
 	background-color: #EEE;
 	border-radius: 10px;
 	padding: 20px;
+	position: relative;
 }
 
 article p { color: #444; }
@@ -204,21 +205,14 @@ footer {
 article h1{
 	padding-left: 84px;
 	margin-left: -84px;
-	min-height: 73px;
 	color: #AAA;
 }
 
-article.xander-post p.meta{ 
-	background: url(/img/xander-icon.gif) 0 17px no-repeat;
-	padding: 80px 0 0 104px;
-	margin: -110px 0 1.5em -104px;
+.character-icon{
+	position: absolute;
+	top: 0;
+	left: -85px;
 }
-article.elijah-post p.meta{	
-	background: url(/img/elijah-icon.png) 0 17px no-repeat;
-	padding: 80px 0 0 104px;
-	margin: -110px 0 1.5em -104px;
-}
-
 
 .footnote-reference { 
 	font-weight: bold;
