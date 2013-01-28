@@ -208,8 +208,16 @@ article h1{
 	color: #AAA;
 }
 
-article.xander-post h1{ background: url(/img/xander-icon.png) 0 0 no-repeat; }
-article.elijah-post h1{	background: url(/img/elijah-icon.png) 0 0 no-repeat; }
+article.xander-post p.meta{ 
+	background: url(/img/xander-icon.png) 0 17px no-repeat;
+	padding: 67px 0 0 84px;
+	margin: -105px 0 1.5em -84px;
+}
+article.elijah-post p.meta{	
+	background: url(/img/elijah-icon.png) 0 17px no-repeat;
+	padding: 67px 0 0 84px;
+	margin: -105px 0 1.5em -84px;
+}
 
 
 .footnote-reference { 
