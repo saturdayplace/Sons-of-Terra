@@ -209,14 +209,14 @@ article h1{
 }
 
 article.xander-post p.meta{ 
-	background: url(/img/xander-icon.png) 0 17px no-repeat;
-	padding: 67px 0 0 84px;
-	margin: -105px 0 1.5em -84px;
+	background: url(/img/xander-icon.gif) 0 17px no-repeat;
+	padding: 80px 0 0 104px;
+	margin: -110px 0 1.5em -104px;
 }
 article.elijah-post p.meta{	
 	background: url(/img/elijah-icon.png) 0 17px no-repeat;
-	padding: 67px 0 0 84px;
-	margin: -105px 0 1.5em -84px;
+	padding: 80px 0 0 104px;
+	margin: -110px 0 1.5em -104px;
 }
 
 
